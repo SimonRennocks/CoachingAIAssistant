@@ -1,5 +1,6 @@
 const express = require("express");
 const logger = require("morgan");
+const routes = require("./routes");
 
 const PORT = process.env.PORT || 4000;
 
@@ -13,9 +14,7 @@ if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
 }
 
-// routes
-app.use(require("./routes/api.js"));
-//app.use(require("./routes/view.js"));
+app.use(routes);
 
 app.listen(PORT, () => {
   console.log(`API Server now listening on PORT ${PORT}!`);
