@@ -1,0 +1,19 @@
+{
+  "name": "coachingaiassistant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SimonRennocks/CoachingAIAssistant.git"
+  },
+  "author": "Simon Rennocks",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SimonRennocks/CoachingAIAssistant/issues"
+  },
+  "homepage": "https://github.com/SimonRennocks/CoachingAIAssistant#readme"
+}
