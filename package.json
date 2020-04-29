@@ -2,7 +2,7 @@
   "name": "coachingaiassistant",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/SimonRennocks/CoachingAIAssistant/issues"
   },
-  "homepage": "https://github.com/SimonRennocks/CoachingAIAssistant#readme"
+  "homepage": "https://github.com/SimonRennocks/CoachingAIAssistant#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  }
 }
