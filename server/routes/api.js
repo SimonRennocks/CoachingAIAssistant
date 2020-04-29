@@ -1,6 +1,6 @@
 const router = require("express").Router();
 
-router.get("/api/data", (req, res) => {
+router.get("/data", (req, res) => {
     const testdata = { test: "test api" };
     res.json(testdata);
 });
