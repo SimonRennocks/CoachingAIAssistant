@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/SimonRennocks/CoachingAIAssistant#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "expresss": "^0.0.0",
     "morgan": "^1.10.0",
     "path": "^0.12.7"
